@@ -1,0 +1,19 @@
+ 2001  meteor add mizzao:bootstrap-3
+ 2002  meteor add underscore
+ 2003  rm -f *
+ 2004  mkdir shared client server lib
+ 2005  meteor add ian:accounts-ui-bootstrap-3
+ 2006  meteor add accounts-password
+ 2007  mkdir collections
+ 2008  mkdir client/lib
+ 2009  touch client/lib/users.js 
+ 2010  touch collections/messages.js
+ 2011  touch client/messagesList.html
+ 2012  touch client/messagesList.js
+ 2013  touch client/usersList.html
+ 2014  touch client/usersList.js
+ 2015  meteor remove autopublish
+ 2016  touch server/users.js
+ 2017  touch server/messages.js
+ 2018  ls client/lib/
+ 2019  meteor remove insecure
