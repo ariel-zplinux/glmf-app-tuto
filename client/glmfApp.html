@@ -1,0 +1,15 @@
+<head>
+	<title> glmf Application </title>
+</head>
+
+<body>
+	{{>loginButtons}}
+	
+	{{#if currentUser}}
+		<h3> Users </h3>
+		{{> usersList}}
+		<h3> Messages </h3>
+		{{> messagesList}}
+
+	{{/if}}
+</body>

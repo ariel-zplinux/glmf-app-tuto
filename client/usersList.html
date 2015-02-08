@@ -1,0 +1,11 @@
+<template name="usersList">
+	{{#each users}}
+		<div> 
+			{{#if sending}}
+				<input type="text" id="message" />
+			{{else}}
+				{{username}} 
+			{{/if}}
+		</div>
+	{{/each}}
+</template>

@@ -1,0 +1,7 @@
+<template name="messagesList">
+	{{#each messages}}
+		<div>
+			<strong>@{{recepient}}</strong>:{{content}}, {{sender}}
+		</div>
+	{{/each}}
+</template>
